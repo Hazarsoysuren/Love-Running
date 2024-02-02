@@ -93,6 +93,36 @@ main {
     margin-top: 47px;
 }
 
+#reasons{
+  margin: auto 20px;
+  width:90%;
+}
+
+#reasons  h2{
+    margin-bottom:20px;
+    font-size: 280%;
+    text-align: center;
+}
+
+#hr{
+    
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+   
+}
+
+#benefits p{
+    padding: 0 20px;
+}
+
+
+
+#benefits-physical >div, 
+#benefits-mental >div{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
 /* Hero section */
 #hero{
     height: 600px;
