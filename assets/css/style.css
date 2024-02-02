@@ -18,7 +18,9 @@ body {
     font-family: "lato", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -87,47 +89,59 @@ nav {
 
 /* Main content */
 main {
-    
+
     /* Make main element take up any surplus space to footer push down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-#reasons{
-  margin: auto 20px;
-  width:90%;
+#reasons {
+    margin: auto 20px;
+    width: 90%;
 }
 
-#reasons  h2{
-    margin-bottom:20px;
+#reasons h2 {
+    margin-bottom: 20px;
     font-size: 280%;
     text-align: center;
 }
 
-#hr{
-    
+#hr {
+
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
-   
+
 }
 
-#benefits p{
+#benefits p {
     padding: 0 20px;
 }
 
 
 
-#benefits-physical >div, 
-#benefits-mental >div{
+#benefits-physical>div,
+#benefits-mental>div {
     margin-bottom: 20px;
     line-height: 20px;
 }
 
+/* Image to the main section */
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp")no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Hero section */
-#hero{
+#hero {
     height: 600px;
-    width:100%;
-    background:url("../images/hero-image.webp") no-repeat center center/cover;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -143,22 +157,23 @@ main {
 }
 
 
-#cover-text > h2, #cover-text > h3{
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
 /* Footer */
 #social-networks {
     text-align: center;
-    padding:20px 0;
-    display:flex;
+    padding: 20px 0;
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-#social-networks i{
+#social-networks i {
     font-size: 160%;
-    padding:5%;
+    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -199,7 +214,7 @@ main {
     }
 
     /* hero */
-    #cover-text{
+    #cover-text {
         width: 300px;
         right: 50px;
     }
