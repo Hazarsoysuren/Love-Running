@@ -137,6 +137,12 @@ main {
     max-height: 300px;
 }
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Hero section */
 #hero {
     height: 600px;
